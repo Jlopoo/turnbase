@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4raksabmcof3"]
+
+[ext_resource type="Script" uid="uid://ctiyxc5o5pwhb" path="res://Scripts/Tile.gd" id="1_jwgpv"]
+[ext_resource type="Texture2D" uid="uid://csxofyvhnxk1g" path="res://Assets/Sprites/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="2_rlh4o"]
+
+[node name="Tilebase" type="Node2D"]
+script = ExtResource("1_jwgpv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_rlh4o")
